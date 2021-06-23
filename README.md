@@ -14,6 +14,9 @@ Clonar do repositório:
     cd backend-w3lcome
     yarn
 
+Development
+    yarn dev
+
 ### Árvore de arquivos
 
 ```
