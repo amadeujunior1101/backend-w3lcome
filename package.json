@@ -1,0 +1,26 @@
+{
+  "name": "backend-w3lcome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.5",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts",
+    "build": "tsc",
+    "deploy": "node dist/src/server.js"
+  },
+  "keywords": [],
+  "author": "Amadeu Junior",
+  "email": "amadeujunior00@gmail.com",
+  "license": "ISC"
+}
